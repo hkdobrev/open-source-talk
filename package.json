@@ -8,5 +8,9 @@
   "dependencies": {
     "reveal.js": "^3.3.0",
     "reveal-ga": "^0.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1"
   }
 }
