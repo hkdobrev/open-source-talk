@@ -31,6 +31,30 @@
     .reveal .h3 {
         font-size: 1.3em;
     }
+    .reveal section img {
+        border: 0;
+        box-shadow: none;
+    }
+    .float-right {
+        float: right;
+    }
+    ol.table {
+        padding-left: 0;
+        list-style: none;
+        width: 600px;
+    }
+    ol.table li {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    ol.table li, ol.table img {
+        vertical-align: middle;
+    }
+    ol.table img {
+        width: 20px;
+        height: 20px;
+        margin-right: 12px;
+    }
 </style>
 </head>
 <body>
@@ -39,39 +63,166 @@
         <section>
             <h1>Contributing to Open-Source</h1>
             <aside class="notes">
-                <p>Hi!</p>
-                <p></p>
+                <p>
+                    Hi, everyone!
+                    It's great to be here!
+                </p>
+                <p>
+                    This talk is about contributing to open-source,
+                    why it's important to contribute, how would that help us and
+                    how to start contributing.
+                    Let's just get started with a bit of history.
+                </p>
             </aside>
         </section>
         <section>
             <section>
                 <h2>Open-source in 1998</h2>
                 <aside class="notes">
+                    It was a different time back in the late 90's
+                    when the open-source term was coined and made popular.
 
+                    Before the term open-source there was the so-called
+                    free software.
+
+                    It's important to understand why the effort was made
+                    to make the open-source term and open-source software popular.
                 </aside>
             </section>
             <section>
-                <h2>Halloween files</h2>
+                <h2>Halloween documents</h2>
                 <aside class="notes">
-
+                    This was the time of the Halloween documents &mdash;
+                    leaked internal reports from Microsoft showing how a big software
+                    company having dominance on the market was aiming to diminish
+                    open-source software and to impede its growth.
                 </aside>
             </section>
             <section>
                 <h2>Open Source Initiative</h2>
+                <img
+                 src="./open-source-initiative.svg"
+                 alt="Open Source Initiative logo"
+                 style="height: 800px">
                 <aside class="notes">
-
+                    The Open Source Initiative was started by Bruce Perens and Eric Raymond.
+                    They tried to help open-source software with its marketing problem.
+                    Free software was mistaken as just being without cost instead of
+                    providing freedom.
+                    Open-source and the initiatives around it helped create the image
+                    of open development, distribution and modification of the software
+                    in the minds of the public.
                 </aside>
             </section>
         </section>
         <section>
             <section>
-                <h2>Open-source now</h2>
+                <h2>Open-source today</h2>
+                <aside class="notes">
+                    <p>
+                        Open source is now ubiquitous. Everyone is using it.
+                        From big corporations to high-school students in developing nations.
+                        Even non-open-source software is using hundreds of open-source libraries.
+                        We know open-source is not going anywhere.
+                    </p>
+                </aside>
             </section>
             <section>
-                <h3>Maintainers&nbsp;&le;&nbsp;Contributors&nbsp;&lt;&nbsp;Users</h3>
+                <h3>Organizations&nbsp;with the most open source&nbsp;contributors</h3>
+                <hr>
+                <ol class="table">
+                    <li>
+                        <img
+                         src="https://avatars2.githubusercontent.com/u/6154722?v=3&amp;s=40"
+                         alt="Microsoft logo">
+                        Microsoft
+                        <span class="float-right">16, 419</span>
+                    </li>
+                    <li>
+                        <img
+                         src="https://avatars0.githubusercontent.com/u/69631?v=3&amp;s=40"
+                         alt="Facebook logo">
+                        Facebook
+                        <span class="float-right">15, 682</span>
+                    </li>
+                    <li>
+                        <img
+                         src="https://avatars2.githubusercontent.com/u/5429470?v=3&amp;s=40"
+                         alt="Docker logo">
+                        Docker
+                        <span class="float-right">14, 059</span>
+                    </li>
+                    <li>
+                        <img
+                         src="https://avatars2.githubusercontent.com/u/139426?v=3&amp;s=40"
+                         alt="Angular logo">
+                        Angular
+                        <span class="float-right">12, 841</span>
+                    </li>
+                    <li>
+                        <img
+                         src="https://avatars0.githubusercontent.com/u/1342004?v=3&amp;s=40"
+                         alt="Google logo">
+                        Google
+                        <span class="float-right">12, 140</span>
+                    </li>
+                    <li>
+                        <img
+                         src="https://avatars0.githubusercontent.com/u/1089146?v=3&amp;s=40"
+                         alt="Atom logo">
+                        Atom
+                        <span class="float-right">9, 698</span>
+                    </li>
+                </ol>
+                <div>
+                    <p class="float-right">
+                        <small>
+                            Source:
+                            <a href="https://octoverse.github.com/">
+                                GitHub Octoverse 2016
+                            </a>
+                        </small>
+                    </p>
+                </div>
+                <aside class="notes">
+                    <p>
+                        GitHub has released its state of the Octoverse a couple of months ago.
+                        They said the organisation with the largest number of open-source contributors
+                        is Microsoft. If you say that to people from the past they will laugh at you.
+                    </p>
+                    <p>
+                        I would say the problems open-source was facing before
+                        is now mostly solved. Small teams, big corporations and governments
+                        all are fine with using open-source and embrace it even more with time.
+                        The adoption of open-source is not a problem.
+                        Every new developer that starts programming is using it
+                        &mdash; from the .NET stack to the latest JavaScript
+                        package manager.
+                    </p>
+                </aside>
+            </section>
+            <section>
+                <h2>We have a different problem now</h2>
+                <aside class="notes">
+                    <p>
+                        But with more and more new people diving into programming
+                        we have more and more users and relatively less and less contributors.
+                    </p>
+                    <p>
+                        Many of the people from the generation which grew
+                        open-source to what it is today were contributing heavily.
+                        We need new people to do the same.
+                    </p>
+                </aside>
             </section>
             <section>
                 <h2>Open-source is taken for granted</h2>
+                <aside class="notes">
+
+                </aside>
+            </section>
+            <section>
+                <h3>Maintainers&nbsp;&le;&nbsp;Contributors&nbsp;&lt;&nbsp;Users</h3>
                 <aside class="notes">
 
                 </aside>
@@ -97,7 +248,7 @@
                     <p>
                         Many people think contributing to open-source means
                         doing work without payment for the greater good.
-                        And it is that.
+                        And this is true in many cases, but that's not the only thing.
                     </p>
                 </aside>
             </section>
